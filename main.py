@@ -36,6 +36,7 @@ class MainClass:
                                      "Status": "Online"})
 
             except Exception as e:
+                print(e)
                 self.appData.append({"Nome": appl['name'],
                                      "Status": "Offline"})
 
